@@ -1,4 +1,4 @@
-import CuentaAhorro from '../models/CuentaAhorro.js';
+import CuentaAhorro from '../models/cuentaAhorro.js';
 
 export const getCuenta = async (req, res) => {
     try {
