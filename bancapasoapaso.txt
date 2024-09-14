@@ -1,0 +1,20 @@
+
+5. Probar desde Postman
+Clientes
+GET: http://localhost:3000/clientes
+POST: http://localhost:3000/clientes con cuerpo JSON.
+PUT: http://localhost:3000/clientes/23 con cuerpo JSON.
+DELETE: http://localhost:3000/clientes/54
+Usuarios
+GET: http://localhost:3000/usuarios
+POST: http://localhost:3000/usuarios con cuerpo JSON.
+PUT: http://localhost:3000/usuarios/1 con cuerpo JSON.
+DELETE: http://localhost:3000/usuarios/4
+Cuentas
+GET: http://localhost:3000/cuentas
+POST: http://localhost:3000/cuentas con cuerpo JSON.
+POST (Consignar):http://localhost:3000/cuentas/1/depositar con cuerpo JSON.
+POST (Retirar): http://localhost:3000/cuentas/1/retiro. con cuerpo JSON.
+DELETE: http://localhost:3000/cuentas/1
+Autenticación
+POST: http://localhost:3000/auth/login con cuerpo JSON.
